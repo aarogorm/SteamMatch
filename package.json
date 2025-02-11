@@ -1,0 +1,42 @@
+{
+  "name": "keeper-part-3-starting",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.3",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "oidc-client-ts": "^3.1.0",
+    "react": "18.2.0",
+    "react-dom": "16.8.6",
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "nodemon server.cjs",
+    "dev": "concurrently \"npm run server\" \"npm run start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
